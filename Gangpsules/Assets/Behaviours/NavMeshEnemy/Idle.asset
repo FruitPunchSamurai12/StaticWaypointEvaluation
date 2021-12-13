@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+  m_Name: Idle
+  m_EditorClassIdentifier: 
+  mBehaviorSource:
+    behaviorName: Idle
+    behaviorDescription: 
+    mTaskData:
+      types: []
+      parentIndex: 
+      startIndex: 
+      variableStartIndex: 
+      JSONSerialization: '{"EntryTask":{"Type":"BehaviorDesigner.Runtime.Tasks.EntryTask","NodeData":{"Offset":"(842.5,-42.88819)"},"ID":0,"Name":"Entry","Instant":true},"RootTask":{"Type":"BehaviorDesigner.Runtime.Tasks.Movement.Patrol","NodeData":{"Offset":"(-20.5345078,225.729172)"},"ID":1,"Name":"Patrol","Instant":true,"SharedBoolrandomPatrol":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedFloatwaypointPauseDuration":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0},"SharedGameObjectListwaypoints":{"Type":"BehaviorDesigner.Runtime.SharedGameObjectList","Name":"Waypoints","IsShared":true,"IsGlobal":true,"List`1mValue":[0,1,2]},"SharedBoolsweepAtPause":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedFloatsweepAngle":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":0},"SharedBoolsweepClockwise":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true},"SharedBoolrandomSweepDirection":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":false},"SharedFloatspeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":10},"SharedFloatangularSpeed":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":120},"SharedFloatarriveDistance":{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"","SinglemValue":1},"SharedBoolstopOnTaskEnd":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true},"SharedBoolupdateRotation":{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"","BooleanmValue":true}},"Variables":[{"Type":"BehaviorDesigner.Runtime.SharedVector3","Name":"PlayerLastKnownPosition","IsShared":true,"Vector3mValue":"(0,0,0)"},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"FireRate","IsShared":true,"SinglemValue":0},{"Type":"BehaviorDesigner.Runtime.SharedFloat","Name":"AttackRange","IsShared":true,"SinglemValue":0},{"Type":"SharedWeapon","Name":"EquippedWeapon","IsShared":true},{"Type":"BehaviorDesigner.Runtime.SharedBool","Name":"HasSeenPlayer","IsShared":true,"BooleanmValue":false}]}'
+      fieldSerializationData:
+        typeName: []
+        fieldNameHash: 
+        startIndex: 
+        dataPosition: 
+        unityObjects:
+        - {fileID: 0}
+        - {fileID: 0}
+        - {fileID: 0}
+        byteData: 
+        byteDataArray: 
+      Version: 1.6.5
